@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nutrileaf</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+
+    <script src="https://code.jquery.com/jquery-3.4.2.js"></script>
+
+    <script>
+        $(document).ready(function () {
+            $('#icon').click(function () {
+                $('ul').toggleClass('show')
+            });
+        });
+    </script>
+</head>
+
+<body>
+    <div class="header">
+        <div class="container">
+            <div class="navbar">
+                <div class="logo">
+                    <img src="Images/Picture3.png" width="150px">
+                </div>
+                <nav>
+                    <ul id="MenuItems">
+                        <li><a href="">Home</a></li>
+                        <li><a href="">Product</a></li>
+                        <li><a href="">About</a></li>
+                        <li><a href="">Contact</a></li>
+                        <li><a href="">Account</a></li>
+                    </ul>
+                    <!-- <label id="icon">
+                        <i class="fas fa-bars"></i>
+                    </label> -->
+                </nav>
+                <img src="Images/shopping-cart.png" width="30px" height="30px">
+                <img src="Images/menu.png" class="menu-icon" onclick="menutoggle()">
+            </div>
+            <div class="row">
+                <div class="col-2">
+                    <h1>Let us help you.</h1>
+                    <p>We will not let you down</p>
+                    <a href="" class="btn">Explore Now &#8594;</a>
+                </div>
+                <div class="col-2">
+                    <img src="Images/pic.png ">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!---------Featured Categories ---------->
+    <div class="categories">
+        <div class="small-container">
+            <div class="row">
+                <div class="col-3">
+                    <img src="Images/category1.png">
+                </div>
+                <div class="col-3">
+                    <img src="Images/category1 (2).png">
+                </div>
+                <div class="col-3">
+                    <img src="Images/category1 (1).png">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!---------Featured Products ---------->
+
+    <div class="small-container">
+        <h2 class="title">Featured Products</h2>
+        <div class="row">
+            <div class="col-4">
+                <img src="Images/head and shoulder shampoo.png">
+                <h4>Head & Shoulders , Anti Dandruff Shampoo + Conditioner, Smooth & Silky, 1 L</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i>
+
+                </div>
+                <p>&#x20B9; 539</p>
+            </div>
+            <div class="col-4">
+                <img src="Images/Loreal shampoo .png">
+                <h4>L'Oreal Paris Total Repair 5 Shampoo, 1000 ml</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i>
+
+                </div>
+                <p>&#x20B9; 465</p>
+            </div>
+            <div class="col-4">
+                <img src="Images/treseme shampoo.png">
+                <h4>TRESemme Keratin Smooth Shampoo 580 ml, Nourishes Dry Hair & Controls Frizz, For Men & Women</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i>
+
+                </div>
+                <p>&#x20B9; 351</p>
+            </div>
+            <div class="col-4">
+                <img src="Images/sunsilk shampoo .png">
+                <h4>Sunsilk Lusciously Thick & Long Shampoo With Keratin, Yoghurt Protein & Macadamia Oil For 2X thicker
+                    & Fuller Hair, 360 ml</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i>
+
+                </div>
+                <p>&#x20B9; 203.00</p>
+            </div>
+        </div>
+
+        <!-- latest Products -->
+
+        <h2 class="title">Latest ProductS</h2>
+        <div class="row">
+            <div class="col-4">
+                <img src="Images/engage.png">
+                <h4>Engage Nudge Deodorant for Men, 220ml</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i>
+
+                </div>
+                <p>&#x20B9; 192</p>
+            </div>
+            <div class="col-4">
+                <img src="Images/engage_drizel.png">
+                <h4>Engage Drizzle Deodorant For Women, Floral and Lavender, Skin Friendly, 150 ml</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i>
+
+                </div>
+                <p>&#x20B9; 165</p>
+            </div>
+            <div class="col-4">
+                <img src="Images/engage_blush_FOR_WOMEN.png">
+                <h4>Engage Blush Deodorant For Women, Fruity and Floral, Skin Friendly, 150 ml</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i>
+
+                </div>
+                <p>&#x20B9; 165.75</p>
+            </div>
+            <div class="col-4">
+                <img src="Images/engage_women_spell.png">
+                <h4>Engage Spell Deodorant For Women, Citrus and Fruity, Skin Friendly, 150 ml</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i>
+
+                </div>
+                <p>&#x20B9; 165.75</p>
+            </div>
+            <div class="col-4">
+                <img src="Images/kama_sutra.png">
+                <h4>Kama Sutra Urge Deodorant for Men, 150ml</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i>
+
+                </div>
+                <p>&#x20B9; 154.99</p>
+            </div>
+            <div class="col-4">
+                <img src="Images/Brut_Sports_syle.png">
+                <h4>Brut Deodorant Spray for Men, Sport Style, Long Lasting Deo with Fresh & Intense Athletic Scent, 200
+                    ml</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i>
+
+                </div>
+                <p>&#x20B9; 173.42</p>
+            </div>
+            <div class="col-4">
+                <img src="Images/park_avenue.png">
+                <h4>Park Avenue Voyage Signature Deodorant For Men, 220ml</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i>
+
+                </div>
+                <p>&#x20B9; 214.00</p>
+            </div>
+            <div class="col-4">
+                <img src="Images/Nivea.png">
+                <h4>NIVEA Men Deodorant, Fresh Active, 48h Long lasting Freshness, 150 ml</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i>
+
+                </div>
+                <p>&#x20B9; 149.25</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- offer -->
+
+    <div class="offer">
+        <div class="small-container">
+            <div class="row">
+                <div class="col-2">
+                    <img src="Images/exclusive.png" class="offer-img">
+                </div>
+                <div class="col-2">
+                    <p>Exclusive Available on Nutrileaf</p>
+                    <h1>Smart Band</h1>
+                    <small>The Mi Smart Bnad 4 features a 39.9% larger (than Mi Band 3) AMOLED color full-touch display
+                        with adjustable brightness, so evrything is clear as can be.</small>
+                    <a href="" class="btn">Buy Now &#8594;</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Testimonial -->
+
+    <div class="testimonial">
+        <div class="small-container">
+            <div class="row">
+                <div class="col-3">
+                    <i class="fa fa-quote-left"></i>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolores natus a beatae aliquid
+                        aspernatur. Explicabo esse laudantium, iste corrupti, deleniti labore eum eius aspernatur
+                        perferendis reprehenderit, a fugiat id nemo.</p>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half-o"></i>
+                    </div>
+                    <img src="Images/user1.jpg">
+                    <h3>Sunny Jha</h3>
+                </div>
+                <div class="col-3">
+                    <i class="fa fa-quote-left"></i>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolores natus a beatae aliquid
+                        aspernatur. Explicabo esse laudantium, iste corrupti, deleniti labore eum eius aspernatur
+                        perferendis reprehenderit, a fugiat id nemo.</p>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half-o"></i>
+                    </div>
+                    <img src="Images/user2.jpeg">
+                    <h3>Shriyansh Jha</h3>
+                </div>
+                <div class="col-3">
+                    <i class="fa fa-quote-left"></i>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolores natus a beatae aliquid
+                        aspernatur. Explicabo esse laudantium, iste corrupti, deleniti labore eum eius aspernatur
+                        perferendis reprehenderit, a fugiat id nemo.</p>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half-o"></i>
+                    </div>
+                    <img src="Images/user3.jpg">
+                    <h3>Shruti Jha</h3>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- brands -->
+    <div class="brands">
+        <div class="small-container">
+            <div class="row">
+                <div class="col-5">
+                    <img src="Images/park-avenue-vector-logo.png">
+                </div>
+                <div class="col-5">
+                    <img src="Images/logo-coca-cola.png">
+                </div>
+                <div class="col-5">
+                    <img src="Images/logo-godrej.png">
+                </div>
+                <div class="col-5">
+                    <img src="Images/logo-oppo.png">
+                </div>
+                <div class="col-5">
+                    <img src="Images/logo-philips.png">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col-1">
+                    <h3>Download Our App</h3>
+                    <p>Download App for Android and ios mobile phone.</p>
+                    <div class="app-logo">
+                        <img src="Images/play-store.png">
+                        <img src="Images/app-store.png">
+                    </div>
+                </div>
+                <div class="footer-col-2">
+                    <img src="Images/Picture3.png">
+                    <p>Our Purpose Is To Give Good Product and In Short Period of Time.</p>
+                </div>
+                <div class="footer-col-3">
+                    <h3>Useful Links</h3>
+                    <ul>
+                        <li>Coupons</li>
+                        <li>Blog Post</li>
+                        <li>Return Policy</li>
+                        <li>Join Affiliate</li>
+                    </ul>
+                </div>
+                <div class="footer-col-4">
+                    <h3>Follow Us</h3>
+                    <ul>
+                        <li>Facebook</li>
+                        <li>Twitter</li>
+                        <li>Instagram</li>
+                        <li>Youtube</li>
+                    </ul>
+                </div>
+            </div>
+            <hr>
+            <p class="copyright">Copyright 2021 - Nutrileaf</p>
+        </div>
+    </div>
+    <!--  js for toggle menu -->
+
+    <script>
+        var MenuItems = document.getElementById("MenuItems");
+
+        MenuItems.style.maxHeight = "0px";
+
+        function menutoggle() {
+            if (MenuItems.style.maxHeight == "0px") {
+                MenuItems.style.maxHeight = "200px";
+            }
+            else {
+                MenuItems.style.maxHeight = "opx";
+            }
+        }
+
+        // $(document).ready(function () {
+        //     $('#icon').click(function () {
+        //         $('ul').toggleClass('show')
+        //     });
+        // });
+
+    </script>
+</body>
+
+</html>
